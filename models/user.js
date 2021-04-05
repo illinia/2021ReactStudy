@@ -10,7 +10,7 @@ const User = new Schema({
   }
 })
 
-User.static.create = function(username, password) {
+User.statics.create = function(username, password) {
   const user = new this({
     username,
     password
@@ -19,7 +19,7 @@ User.static.create = function(username, password) {
   return user.save()
 }
 
-User.static.findOneByUsername = function(username) {
+User.statics.findOneByUsername = function(username) {
   return this.findOne({
     username
   }).exec()
