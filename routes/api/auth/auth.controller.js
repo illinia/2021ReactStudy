@@ -26,6 +26,7 @@ exports.register = (req, res) => {
   }
 
   const respond = (isAdmin) => {
+    console.log("브런치테스트")
     res.json({
       message: 'registered successfully',
       admin: isAdmin ? true : false
