@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "364375446707",
+    "project_id": "first-app-82c56",
+    "storage_bucket": "first-app-82c56.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:364375446707:android:9624d83b47e8310b224cc6",
+        "android_client_info": {
+          "package_name": "com.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "364375446707-k3vgj1q056lnl6h3pmiuoorbbdguhs4r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDafSBklo1jsAYQxlILW_lJ7xgwdaIFbY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "364375446707-k3vgj1q056lnl6h3pmiuoorbbdguhs4r.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "364375446707-1fap1jgk7fm8f1f0qgn55seeeifcsa2g.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.CliApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
